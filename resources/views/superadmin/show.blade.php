@@ -57,7 +57,7 @@
                                             <form action="{{route('superadmin.destroy',$superadmin[0]->id)}}" method="POST">
                                                 {{method_field("DELETE")}}    
                                                 @csrf
-                                                    <button class="btn btn-danger" onclick="return confirm('Are you sure you want to delete account?')">
+                                                    <button class="btn btn-danger" onclick="return confirm('Are you sure you want to delete your account?')">
                                                         Delete Account</button>
                                                 </form>
                                             </div>
